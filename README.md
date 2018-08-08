@@ -43,7 +43,7 @@ In this project, i've applied a PID Controller to keep the car inside the track.
 
 The P-I-D hyperparameters, were tuned manually and chosen randomly. The parameteres were tuned in two PID instances, one for steering and one for speed. For the steering part, in my first tries the car was mostly turning left and right at a high angle, and the cause was that the Kp and Kd parameters were really low. So, after a few tests with different values i got the expected result just by increasing the Kp value a little bit and a lot the Kd.
 
-The second PID instance was for tuning the speed.
+The second PID instance was for tuning the speed. I prefered to keep the speed at a specific level in order to achieve better results, so i applied a default speed and, with calculations based on the measurements i keep the speed at a certain level.
 
 ## Editor Settings
 
