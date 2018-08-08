@@ -41,7 +41,9 @@ Tips for setting up your environment can be found [here](https://classroom.udaci
 
 In this project, i've applied a PID Controller to keep the car inside the track. The proportional control (P), steers the car in order to keep it in the center line of the track. The integral (I), sums up all the CTE's observed (Not used in this occasion). The derivative (D), reduces the P's chances to overshoot the center line, by smoothing the approach to it.
 
+The P-I-D hyperparameters, were tuned manually and chosen randomly. The parameteres were tuned in two PID instances, one for steering and one for speed. For the steering part, in my first tries the car was mostly turning left and right at a high angle, and the cause was that the Kp and Kd parameters were really low. So, after a few tests with different values i got the expected result just by increasing the Kp value a little bit and a lot the Kd.
 
+The second PID instance was for tuning the speed.
 
 ## Editor Settings
 
