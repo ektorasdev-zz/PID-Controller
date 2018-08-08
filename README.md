@@ -37,6 +37,12 @@ There's an experimental patch for windows in this [PR](https://github.com/udacit
 
 Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
+## Project Reflection
+
+In this project, i've applied a PID Controller to keep the car inside the track. The proportional control (P), steers the car in order to keep it in the center line of the track. The integral (I), sums up all the CTE's observed (Not used in this occasion). The derivative (D), reduces the P's chances to overshoot the center line, by smoothing the approach to it.
+
+
+
 ## Editor Settings
 
 We've purposefully kept editor configuration files out of this repo in order to
